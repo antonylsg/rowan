@@ -1131,7 +1131,7 @@ impl From<SyntaxToken> for SyntaxElement {
 
 // region: iterators
 
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, Default)]
 pub struct SyntaxNodeChildren {
     next: Option<SyntaxNode>,
 }
