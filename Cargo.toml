@@ -13,7 +13,7 @@ exclude = [".github/", "bors.toml", "rustfmt.toml"]
 members = ["xtask"]
 
 [dependencies]
-rustc-hash = "1.0.1"
+rustc-hash = "2.0.0"
 hashbrown = { version = "0.14.3", features = [
     "inline-more",
 ], default-features = false }
